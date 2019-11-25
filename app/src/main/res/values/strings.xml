@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">eKlinik</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="text_spesialis">
+        <item>Pilih Spesialis</item>
+        <item>Umum</item>
+        <item>Gigi</item>
+        <item>Kulit &amp; Kelamin</item>
+        <item>Mata</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Pilih Gender</item>
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+</resources>
