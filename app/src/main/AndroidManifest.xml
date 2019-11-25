@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="stt.harapan.com.eklinik">
+    package="rizky.putra.com.eklinik">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -14,16 +14,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PasienRegisterActivity"></activity>
-        <activity android:name=".DokterRegisterActivity" />
-        <activity android:name=".KlinikOrderActivity" />
-        <activity android:name=".KonfirmasiActivity" />
-        <activity android:name=".OrderDokterActivity" />
-        <activity android:name=".PasienMainActivity" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".DokterLoginActivity" />
-        <activity android:name=".DokterMainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="rizky.putra.com.eklinik.PasienRegisterActivity"></activity>
+        <activity android:name="rizky.putra.com.eklinik.DokterRegisterActivity" />
+        <activity android:name="rizky.putra.com.eklinik.KlinikOrderActivity" />
+        <activity android:name="rizky.putra.com.eklinik.KonfirmasiActivity" />
+        <activity android:name="rizky.putra.com.eklinik.OrderDokterActivity" />
+        <activity android:name="rizky.putra.com.eklinik.PasienMainActivity" />
+        <activity android:name="rizky.putra.com.eklinik.WelcomeActivity" />
+        <activity android:name="rizky.putra.com.eklinik.DokterLoginActivity" />
+        <activity android:name="rizky.putra.com.eklinik.DokterMainActivity" />
+        <activity android:name="rizky.putra.com.eklinik.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -31,8 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PasienLoginActivity" />
-        <activity android:name=".MapActivity" />
+        <activity android:name="rizky.putra.com.eklinik.PasienLoginActivity" />
+        <activity android:name="rizky.putra.com.eklinik.MapActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
